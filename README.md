@@ -9,7 +9,7 @@ At this point, changing it would mean updating several existing links and refere
 **Current portfolio:** https://reducemyrows.github.io/
 **LinkedIn:** https://www.linkedin.com/in/w-hoeltermann/
 
-# ToDo / Ongoing (10/25/26)
+## ToDo / Ongoing (10/25/26)
 
 - Finish HTML presentation
 - Upload Soda Tax presentation for VA Dept of Tax
