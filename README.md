@@ -6,7 +6,7 @@
 
 At this point, changing it would mean updating several existing links and references, so it makes sense to keep it for now.
 
-**Current portfolio:** https://reducemyrows.github.io/
+**Current portfolio:** https://reducemyrows.github.io/  
 **LinkedIn:** https://www.linkedin.com/in/w-hoeltermann/
 
 ## ToDo / Ongoing (10/25/26)
