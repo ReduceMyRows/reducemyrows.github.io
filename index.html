@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wataru Hoeltermann's research portfolio: applied economics, econometrics, environmental risk, and data analysis.">
+  <title>Wataru Hoeltermann | Applied Economics & Research</title>
+  <style>
+    :root { --ink:#202b37; --muted:#566475; --accent:#174a73; --line:#dce3e8; --surface:#f7f9fb; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); background:#fff; font:16px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover, a:focus-visible { text-decoration:underline; }
+    a:focus-visible { outline:2px solid var(--accent); outline-offset:3px; }
+    .wrap { max-width:960px; margin:auto; padding:0 26px; }
+    header { border-bottom:1px solid var(--line); }
+    .nav { display:flex; justify-content:space-between; gap:20px; align-items:center; padding:18px 0; }
+    .brand { font-size:17px; font-weight:700; color:var(--ink); letter-spacing:-.02em; }
+    nav { display:flex; gap:22px; flex-wrap:wrap; font-size:14px; }
+    main { padding-top:58px; }
+    .eyebrow { color:var(--accent); font-size:12px; text-transform:uppercase; letter-spacing:.13em; font-weight:700; margin:0 0 12px; }
+    h1,h2,h3 { line-height:1.25; letter-spacing:-.035em; }
+    h1 { font-size:clamp(34px,5vw,48px); margin:0 0 10px; }
+    .subtitle { font-size:19px; color:var(--muted); margin:0; }
+    .intro { max-width:760px; margin:22px 0 0; color:#394958; }
+    .intro a { white-space:nowrap; }
+    section { margin-top:66px; }
+    section h2 { font-size:26px; margin:0 0 10px; }
+    .section-note { color:var(--muted); margin:0 0 24px; }
+    .project { display:grid; grid-template-columns:54px minmax(0,1fr); gap:16px; padding:29px 0; border-top:1px solid var(--line); }
+    .number { font-size:14px; color:#748392; font-weight:700; padding-top:4px; }
+    .project h3 { margin:0 0 5px; font-size:21px; }
+    .meta { font-size:13px; font-weight:600; color:var(--muted); margin:0 0 8px; }
+    .project p:not(.meta) { margin:0 0 10px; }
+    .links { display:flex; flex-wrap:wrap; gap:16px; font-size:14px; font-weight:600; }
+    .status { font-size:13px; color:var(--muted); margin-top:9px !important; }
+    .about { padding:26px 30px; border:1px solid var(--line); border-radius:7px; background:var(--surface); }
+    .about p { margin:0; }
+    footer { border-top:1px solid var(--line); margin-top:70px; padding:25px 0 42px; color:var(--muted); font-size:13px; }
+    @media (max-width:580px) { .nav { align-items:flex-start; flex-direction:column; gap:7px; } nav { gap:16px; } main { padding-top:34px; } section { margin-top:48px; } .project { grid-template-columns:34px minmax(0,1fr); gap:12px; } .project h3 { font-size:19px; } .about { padding:20px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#top">Wataru Hoeltermann</a>
+      <nav aria-label="Main navigation">
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#about">About</a>
+        <a href="https://github.com/ReduceMyRows">GitHub</a>
+      </nav>
+    </div>
+  </header>
+  <main class="wrap" id="top">
+    <div class="eyebrow">Research &amp; data portfolio</div>
+    <h1>Wataru Hoeltermann</h1>
+    <p class="subtitle">Applied Economist · Quantitative Research · Data Analysis</p>
+    <p class="intro">I work with economic and environmental data to study policy questions, investment decisions, and risk. My interests include applied econometrics, infrastructure resilience, insurance markets, and reproducible analytical workflows.</p>
+
+    <section id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Selected projects</h2>
+      <p class="section-note">Research papers, quantitative analysis, and reproducible data workflows.</p>
+
+      <article class="project">
+        <div class="number">01</div>
+        <div>
+          <h3>Do Seawalls Pay for Themselves?</h3>
+          <p class="meta">Environmental economics · Coastal risk · Stata · 2026 working paper</p>
+          <p>Examines the economics of coastal protection through property insurance risk pricing in South Florida, including a framework for assessing when avoided insurance costs could justify infrastructure investment.</p>
+          <div class="links"><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6336999">Read working paper</a><a href="https://github.com/ReduceMyRows/Graduate-Student-Project-Archive/tree/main/Stata">View Stata archive</a></div>
+          <p class="status">Code status: partial data-construction archive; not a complete replication package.</p>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="number">02</div>
+        <div>
+          <h3>Green Funding and Carbon Dynamics in South Africa</h3>
+          <p class="meta">Time-series econometrics · R · ARIMA · VAR · Cointegration</p>
+          <p>Examines relationships among CO₂, prices, and trade variables using stationarity tests, cointegration analysis, autoregressive models, impulse responses, and forecast-error variance decomposition.</p>
+          <div class="links"><a href="https://github.com/ReduceMyRows/Graduate-Student-Project-Archive/tree/main/RStudio-TimeSeries">Project files and code</a></div>
+          <p class="status">Status: completed academic research.</p>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="number">03</div>
+        <div>
+          <h3>FRED &amp; NOAA Economic–Environmental Data Pipeline</h3>
+          <p class="meta">Python · APIs · Data validation · Time-series integration</p>
+          <p>Builds reusable workflows for collecting and standardizing macroeconomic data from FRED and water-level observations from NOAA CO-OPS, producing datasets for later econometric modeling.</p>
+          <div class="links"><a href="https://github.com/ReduceMyRows/Graduate-Student-Project-Archive/tree/main/Python/FRED_environmental_projects/data_pipelines">View pipeline code</a></div>
+          <p class="status">Status: exploratory pipeline; empirical model and findings are not final.</p>
+        </div>
+      </article>
+    </section>
+
+    <section id="research" aria-labelledby="research-title">
+      <h2 id="research-title">Research</h2>
+      <p><strong>Working paper (2026).</strong> <em>Do Seawalls Pay for Themselves? Evidence from Insurance Risk Pricing in South Florida.</em> <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6336999">Read on SSRN</a>.</p>
+      <p>Other selected applied policy and econometric exercises will be added as documentation becomes available.</p>
+    </section>
+
+    <section id="about" aria-labelledby="about-title">
+      <h2 id="about-title">About</h2>
+      <div class="about">
+        <p>I hold an M.S. in Applied Economics from George Washington University. My analytical work uses R, Stata, Python, Excel Power Query, and GIS tools across research, data management, and economic analysis. <a href="https://github.com/ReduceMyRows">Explore my GitHub repositories</a>.</p>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap">© Wataru Hoeltermann · Research and data portfolio · Hosted on GitHub Pages</div></footer>
+</body>
+</html>
